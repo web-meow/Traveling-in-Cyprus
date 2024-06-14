@@ -37,7 +37,7 @@
     font-family: "Lato";
     src: url(../fonts/Lato/Lato-Regular.ttf);
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 @font-face {
@@ -141,9 +141,69 @@ header .main-welcome .welcome-text button:hover{
 .main-welcome{
     display: flex;
     align-items:center;
-    padding-bottom: 150px;
+    padding-bottom: 165px;
 }
 
 header .rombiki{
     position: absolute;
+}
+
+.section-adventure .main-info{
+    display: flex;
+}
+
+.section-adventure .main-info .text *{
+    margin-bottom: 30px;
+}
+
+.section-adventure .main-info .text h3{
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #666;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.section-adventure .main-info .text h2{
+    font-size: 60px;
+    font-family: "Merriweather";
+    color: #222;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+
+.section-adventure .main-info .text p{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    line-height: 150%;
+    letter-spacing: 3px;
+    width: 80%;
+}
+
+.section-adventure .main-info .route{
+    position: absolute;
+    top: 975px;
+    left: 150px;
+}
+
+.section-adventure button{
+    border-style: none;
+    padding: 12px 34px;
+    border: solid #F87932;
+    background-color: white;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 50px 0;
+    transition: 0.3s;
+}
+
+.section-adventure button:hover{
+    background-color: #F87932;
+    color: white;
+    transition: 0.3s;
 }
