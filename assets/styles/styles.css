@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SegwickAve";
+    src: url(../fonts/SedgwickAve-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato/Lato-Thin.ttf);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
