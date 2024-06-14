@@ -53,3 +53,97 @@
     font-style: normal;
     font-weight: bold;
 }
+
+*{
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header{
+    background-image: url(../imgs/BG.png);
+}
+
+header .navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation button{
+    padding: 20px;
+    border-style: none;
+    background-color: white;
+    color: #F87932;
+    border-radius: 0 0 15px 15px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+header .navigation button:hover{
+    margin-bottom: 0;
+    transition: 0.5s;
+}
+
+header .navigation .logo{
+    width: 124px;
+    height: 102px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .main-welcome .welcome-text h1{
+    font-size: 80px;
+    color: #39BFA7;
+    font-family: "Merriweather";
+    margin-bottom: 50px;
+    text-shadow: 0px 4px 8px #00171480;
+}
+
+header .main-welcome .welcome-text h1 span{
+    color: #F87932;
+}
+
+header .main-welcome .welcome-text button{
+    border-style: none;
+    width: 213px;
+    height: 62px;
+    color: white;
+    font-family: "Lato";
+    letter-spacing: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F87932;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+header .main-welcome .welcome-text button:hover{
+    color: #F87932;
+    background-color: white;
+}
+
+.main-welcome{
+    display: flex;
+    align-items:center;
+    padding-bottom: 150px;
+}
+
+header .rombiki{
+    position: absolute;
+}
