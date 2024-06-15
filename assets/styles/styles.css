@@ -269,3 +269,59 @@ header .rombiki{
     height: 180px;
     transition: 0.3s;
 }
+
+.section-advantages .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+.section-advantages .bg-romb{
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+    background-color: #39BFA7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px 1px #00685C40;
+}
+
+.section-advantages .bg-romb .info-romb{
+    background-color: white;
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px #3E000040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-advantages .bg-romb .info-romb .num-romb{
+    background-color: #39BFA7;
+    border: solid #390000a6;
+    margin: 10px 0 0 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px #2A06063B;
+}
+
+.section-advantages .bg-romb .info-romb p{
+    transform: rotate(-45deg);
+    font-size: 32px;
+    text-align: center;
+}
+
+.section-advantages .bg-romb .info-romb .num-romb p{
+    color: white;
+    font-size: 20px;
+}
