@@ -211,11 +211,10 @@ header .rombiki{
 
 .section-enough{
     background-image: url(../imgs/video-bg.png);
-    block-size: cover;
+    background-size: cover !important;
     width: 1920px;
     height: 1000px;
     display: flex;
-    
 }
 
 .section-enough .container{
@@ -539,3 +538,55 @@ header .rombiki{
     transition: 0.3s;
 }
 
+footer{
+    background-color: #151C21;
+    font-family: "Lato";
+    font-weight: 500;
+}
+
+.section-footer .info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+    color: white;
+}
+
+.section-footer .info .box .title{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.section-footer .info .box .content{
+    font-size: 16px;
+}
+
+.section-footer .line{
+    width: 80%;
+    height: 2px;
+    background-color: #414141;
+    margin: 50px 10%;
+}
+
+.section-footer .copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-footer .copyright p:nth-child(1){
+    font-size: 18px;
+    color: #bbb;
+    padding-bottom: 10px;
+}
+
+.section-footer .copyright p:nth-child(2){
+    font-size: 13px;
+    color: #bbb;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+
+.section-footer .copyright .socialmed{
+    padding-bottom: 15px;
+}
