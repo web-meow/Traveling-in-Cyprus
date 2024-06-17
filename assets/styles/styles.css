@@ -458,6 +458,12 @@ header .rombiki{
     padding: 50px 0;
 }
 
+.section-roadmap .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .section-roadmap .title-text .title h2{
     color: white;
 }
@@ -490,4 +496,46 @@ header .rombiki{
     font-family: "SegwickAve";
     color: #39BFA7;
     font-size: 50px;
+    padding-right: 100px;
 }
+
+.section-roadmap .hikes .list-hikes .txt{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.section-roadmap .hikes .list-hikes{
+    color: white;
+}
+
+.section-roadmap .hikes .list-hikes .num{
+    font-size: 60px;
+    font-family: "SegwickAve";
+    padding-right: 20px;
+}
+
+.section-roadmap .hikes .list-hikes .descr p{
+    font-family: "SegwickAve";
+    color: #969696;
+    font-size: 28px;
+}
+
+.section-roadmap .hikes .list-hikes .descr h3{
+    font-family: "Merriweather";
+    font-size: 32px;
+    color: #DDD;
+}
+
+.section-roadmap .bl-wht_btn{
+    background: none;
+    color: #F87932;
+    margin: 0 35%;
+    transition: 0.3s;
+}
+
+.section-roadmap .bl-wht_btn:hover{
+    color: white;
+    background-color: #F87932;
+    transition: 0.3s;
+}
+
