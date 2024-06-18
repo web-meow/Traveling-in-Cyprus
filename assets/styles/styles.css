@@ -740,4 +740,38 @@ footer{
         top: 850px;
         left: 0;
     }
+
+    .section-enough h2{
+        font-size: 15px;
+    }
+
+    .section-enough h3{
+        font-size: 7px;
+        margin: 0 50px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .section-enough{
+        background-image: url(../imgs/video-bg_mobile.png);
+        height: 421px;
+    }
+
+    .section-enough .btn{
+        display: none;
+    }
+
+    .section-advantages .bg-romb{
+        width: 120px;
+        height: 120px;
+    }
+
+    .section-advantages .bg-romb .info-romb{
+        width: 80px;
+        height: 80px;
+    }
+
+    .section-advantages .bg-romb .info-romb p{
+        font-size: 12px;
+    }
 }
