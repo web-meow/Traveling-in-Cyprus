@@ -75,7 +75,7 @@ header{
     background-position: top;
 }
 
-header .navbar-mob, header .main-welcome .welcome-img .img-mobile, .section-adventure .main-info .route-mobile{
+header .navbar-mob, header .main-welcome .img-mobile, .section-adventure .main-info .route-mobile{
     display: none;
 }
 
@@ -194,7 +194,7 @@ header .rombiki{
     width: 80%;
 }
 
-.section-adventure .main-info .route{
+.section-adventure .main-info .route-desktop{
     position: absolute;
     top: 975px;
     left: 150px;
@@ -563,6 +563,12 @@ footer{
     color: white;
 }
 
+.section-footer .info .boxs{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
 .section-footer .info .box .title{
     font-size: 20px;
     padding-bottom: 10px;
@@ -604,7 +610,7 @@ footer{
 
 @media (max-width: 600px) {
     .container{
-        width: 320px;
+        width: 90%;
     }
     header .rombiki, header .main-welcome .welcome-img, header .navigation button{
         display: none;
@@ -654,7 +660,7 @@ footer{
         background-color: white;
         position: fixed;
         bottom: 0;
-        right: 60px;
+        right: 33px;
         box-shadow:  0px 6px 14px 2px rgba(0, 0, 0, 0.2);
         padding-top: 5px;
         overflow: hidden;
@@ -688,11 +694,10 @@ footer{
     header .main-welcome .img-mobile{
         display: block;
         top: 320px;
-        right: -30px;
+        right: 1px;
         position: absolute;
-        overflow: hidden !important;
     }
-
+    
     .section-adventure .main-info .text{
         text-align: center;
         display: flex;
@@ -798,9 +803,10 @@ footer{
         grid-template-columns: 0.3fr 1fr;
         gap: 3px;
         transform: rotate(45deg);
-        margin-left: 50px;
-        margin-top: -50px;
+        margin-left: 85px;
+        margin-top: -163px;
         justify-content: flex-start;
+        width: 100px;
     }
 
     .section-enough .container *{
@@ -822,7 +828,7 @@ footer{
     }
 
     .section-blog .container{
-        padding: 0;
+        padding: 70px 0;
     }
 
     .title-text img{
@@ -888,7 +894,6 @@ footer{
 
     .section-roadmap .container{
         padding: 30px;
-        margin: 10px;
     }
 
     .section-roadmap .title-text .title h2{
@@ -930,5 +935,50 @@ footer{
 
     .section-roadmap .bl-wht_btn{
         margin: 0 30%;
+    }
+
+    .section-blog .img .image .cover{
+        font-size: 16px;
+    }
+
+    .section-footer .info .boxs{
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .section-footer .info .box .title{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    .section-footer .info .box .content{
+        font-size: 11px;
+    }
+
+    .section-footer .info .box{
+        padding-bottom: 20px;
+    }
+
+    .section-footer .info{
+        align-items: start;
+    }
+
+    .section-footer .line{
+        margin: 30px 10%;
+    }
+
+    .section-footer .copyright p:nth-child(1){
+        font-size: 10px;
+    }
+
+    .section-footer .copyright p:nth-child(2){
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding-bottom: 30px;
+    }
+
+    .section-footer .copyright .socialmed img{
+        padding: 5px;
+        width: 25px;
     }
 }
