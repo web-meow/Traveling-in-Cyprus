@@ -687,6 +687,7 @@ footer{
         top: 320px;
         right: -30px;
         position: absolute;
+        overflow: hidden !important;
     }
 
     .section-adventure .main-info .text{
@@ -743,6 +744,7 @@ footer{
 
     .section-enough h2{
         font-size: 15px;
+        margin-bottom: 20px;
     }
 
     .section-enough h3{
@@ -795,5 +797,89 @@ footer{
         transform: rotate(45deg);
         margin-left: 50px;
         margin-top: -50px;
+        justify-content: flex-start;
+    }
+
+    .section-enough .container *{
+        margin-top: 0;
+    }
+
+    .title-text .title h2{
+        font-size: 24px;
+    }
+
+    .title-text .title h3{
+        font-size: 16px;
+    }
+
+    .title-text .descr{
+        font-size: 8px;
+        letter-spacing: 2px;
+        padding: 0 50px;
+    }
+
+    .section-blog .container{
+        padding: 0;
+    }
+
+    .title-text img{
+        width: 25%;
+        padding: 10px 0;
+    }
+
+    .section-blog .img{
+        grid-template-columns: repeat(2, 132px);
+        grid-template-rows: repeat(4, 132px);
+        gap: 10px;
+    }
+
+    .section-blog .img .image:nth-child(1){
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 3;
+    }
+
+    .section-blog .img .image:nth-child(2){
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 2;
+    }
+
+    .section-blog .img .image:nth-child(3){
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-row-end: 5;
+        grid-column-end: 3;
+    }
+
+    .section-blog .img .image:nth-child(4){
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-end: 3;
+    }
+
+    .section-blog .img .image:nth-child(5){
+        grid-row-start:3;
+        grid-column-start: 1;
+        grid-row-end: 4;
+        grid-column-end: 2;
+    }
+
+    .section-blog .img .image:nth-child(6){
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-row-end: 4;
+        grid-column-end: 3;
+    }
+
+    .section-blog .img{
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .section-blog .container .bl-wht_btn{
+        margin: 0 35%;
+        margin-bottom: 30px;
     }
 }
