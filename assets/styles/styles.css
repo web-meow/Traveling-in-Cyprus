@@ -464,6 +464,8 @@ header .rombiki{
 .section-roadmap{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/bg2.jpg);
     padding: 50px 0;
+    background-size: cover;
+    background-position: center;
 }
 
 .section-roadmap .container{
@@ -881,5 +883,51 @@ footer{
     .section-blog .container .bl-wht_btn{
         margin: 0 35%;
         margin-bottom: 30px;
+    }
+
+    .section-roadmap .container{
+        padding: 30px;
+        margin: 10px;
+    }
+
+    .section-roadmap .title-text .title h2{
+        font-family: "Merriweather";
+        font-size: 30px;
+    }
+
+    .section-roadmap .hikes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-roadmap .title-text .descr{
+        padding: 0 5px;
+    }
+
+    .section-roadmap .hikes .title-hikes{
+        font-size: 30px;
+        padding-right: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .section-roadmap .hikes .list-hikes .num{
+        font-size: 32px;
+    }
+
+    .section-roadmap .hikes .list-hikes .descr p{
+        font-size: 11px;
+    }
+
+    .section-roadmap .hikes .list-hikes .descr h3{
+        font-size: 16px;
+    }
+
+    .section-roadmap .hikes .list-hikes .txt{
+        padding-bottom: 20px;
+    }
+
+    .section-roadmap .bl-wht_btn{
+        margin: 0 30%;
     }
 }
